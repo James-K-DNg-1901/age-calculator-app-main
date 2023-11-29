@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <div class="main-cart">
+      <span class="input-box">
+        <div>
+          <h1>DAY</h1>
+          <input type="datetime" id="b-day" placeholder="DD">
+          <em class="warn" id="warning">This field is required</em>
+        </div>
+        <div>
+          <h1>MONTH</h1>
+          <input type="datetime" id="b-month" placeholder="MM">
+          <em class="warn" id="warning">This field is required</em>
+        </div> 
+        <div>
+          <h1>YEAR</h1>
+          <input type="datetime" id="b-year" placeholder="YYYY">
+          <em class="warn" id="warning">This field is required</em>
+        </div>        
+      </span>
+        <hr>
+        <button id="btn1" class="arrow-btn"><img src="./assets/images/icon-arrow.svg" alt="icon-arrow"></button>
+      <div>
+        <p><em><strong>--</strong>years</em></p>
+        <p><em><strong>--</strong>months</em></p>
+        <p><em><strong>--</strong>days</em></p>
+      </div>
+    </div>
+  </main>
+  
+  <script src="index.js"></script>
+</body>
+</html>

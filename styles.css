@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 86%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cart {
+    width: 40em;
+    height: 30em;
+    background-color: white;
+    padding: 3em;
+    border-radius: 1.5em 1.5em 12em 1.5em;
+}
+
+h1 {
+    font-size: small;
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 0.5em;
+    letter-spacing: 3px;
+}
+
+input {
+    height: 2.5em;
+    width: 6em;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0.5em;
+    margin-right: 2em;
+    border: solid hsl(0, 1%, 44%) 0.005em;
+    border-radius: 0.3em;
+}
+
+.warn {
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.input-box {
+    width: 20em;
+    display: flex;
+}
+
+hr {
+    border: solid hsl(0, 1%, 44%) 0.1px;
+    width: 35em;
+    float: left;
+    margin-top: 1.5em;
+}
+.arrow-btn {
+    width: 4em;
+    height: 4em;
+    background-color: hsl(259, 100%, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5em;
+    border: none;
+}
+.arrow-btn:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+img {
+    width: 2em;
+}
+
+p {
+    height: 1.2em;
+    font: italic;
+    font-weight: 800;
+    font-size: 5em;
+    margin: 0;
+}
+p strong {
+    color: hsl(259, 100%, 65%);
+    letter-spacing: 5px;
+}
+
+@media (max-width: 800px) {
+    .main-cart {
+        width: 25em;
+        height: 33em;
+        padding: 2em;
+        border-radius: 1.5em 1.5em 10em 1.5em;
+    }
+    
+    h1 {
+        font-size: small;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 0.5em;
+    }
+    
+    input {
+        height: 2.5em;
+        width: 5em;
+        padding-left: 0.7em;
+        margin-right: 1.2em;
+    }
+    
+    .input-box {
+        width: auto;
+    }
+    hr {
+        width: 25em;
+        margin-top: 3em;
+    }
+    .arrow-btn {
+        width: 5em;
+        height: 5em;
+        position: relative;
+        left: 12.5em;
+        top: -3em;
+    }
+    p {
+        height: 1.2em;
+        font: italic;
+        font-weight: 800;
+        font-size: 4.5em;
+        margin: 0;
+    }
+}
